@@ -1,0 +1,269 @@
+
+p {
+  color: grey
+}
+
+#heading {
+  text-transform: uppercase;
+  color: #673AB7;
+  font-weight: normal
+}
+
+#msform {
+  text-align: center;
+  position: relative;
+  margin-top: 20px
+}
+
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative
+}
+
+.form-card {
+  text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+  display: none
+}
+
+
+#msform input:focus,
+#msform textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #08376B;
+  outline-width: 0
+}
+
+#msform .action-button {
+  background: #08376B;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px 10px;
+  margin: 10px 10px 10px 5px;
+  float: right
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+  background-color: #0070D0;
+}
+
+#msform .action-button-previous {
+  width: 100px;
+  background: #616161;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px 10px 0px;
+  float: right
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+  background-color: #000000
+}
+
+.inner {
+  z-index: 0;
+  border: none;
+  position: relative
+}
+
+.fs-title {
+  font-size: 25px;
+  color: #08376B;
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-align: left
+}
+
+.purple-text {
+  color: #08376B;
+  font-weight: normal
+}
+
+.steps {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 10px;
+  font-weight: normal;
+  text-align: right
+}
+
+.fieldlabels {
+  color: gray;
+  text-align: left
+}
+
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey
+}
+
+#progressbar .active {
+  color: #08376B
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 20%;
+  float: left;
+  position: relative;
+  font-weight: 400
+}
+
+#progressbar #shortlist:before {
+  content: "1"
+}
+
+#progressbar #screening:before {
+  content: "2"
+}
+
+#progressbar #rating:before {
+  content: "3"
+}
+
+#progressbar #joboffer:before {
+  content: "4"
+}
+
+#progressbar #onboarding:before {
+  content: "5"
+}
+
+#progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px
+}
+
+#progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #08376B
+}
+
+.progress {
+  height: 20px
+}
+
+.progress-bar {
+  background-color: #08376B
+}
+
+.fit-image {
+  width: 100%;
+  object-fit: cover
+}
+
+/*Cards*/
+
+/*view button in shortlist*/
+.view-btn{
+
+  width:100%;
+  padding:5px 10px 5px 10px;
+  background: #08376B;
+  color:white;
+  font-weight: 700;
+
+}
+
+
+.checklists{
+  margin:8px;
+  font-size:30px;
+}
+
+
+/*show rate*/
+
+.form {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.rate-btn{
+  width:100%;
+  padding:5px 15px 5px 15px;
+  background: #F7B41E !important;
+  color:white;
+  font-weight: 700;
+  font-size:  16px;
+}
+
+.rate-btn2{
+  width:100%;
+  padding:5px 15px 5px 15px;
+  background: #08376B !important;
+  color:white;
+  font-weight: 700;
+  font-size:  16px;
+}
+
+.save-rate-btn{
+  
+  padding:5px 10px 5px 10px;
+  background: #08376B !important;
+  color:white;
+  font-weight: 700;
+  margin:10px;
+}
+
+.rate-title{
+  width: 100%;
+  color: white;
+  background-color: #0070D0;
+  text-align: center;
+  padding:5px 0 5px 0;
+}
+
+.mdc-cards{
+  padding:0 !important;
+}
+
+.form-check{
+  margin:0 15px 10px 15px;
+  
+}
+
+.sulod{
+  padding:0 15px 15px 15px;
+}
