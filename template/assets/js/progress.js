@@ -140,5 +140,16 @@ $(document).ready(function(){
 });
 
 
+var btn;
+
+var changed = function() {
+  //get the length of non checked boxes
+  var disbl = $('input[id^=f_agree]:not(:checked)').length;
+  btn.prop('disabled', disbl);//disable if true, else enable
+};
 
 
+$(function() {
+  btn = $('#acceptbtn');
+  $('input[id^=f_agree]').on('change', changed).trigger('change');
+});
